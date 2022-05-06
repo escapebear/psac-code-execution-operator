@@ -1,0 +1,8 @@
+apiVersion: operators.psac.inf.elte.hu/v1
+kind: CodeExecution
+metadata:
+  name: code-executor-gradle-jdk17
+spec:
+  user: myself
+  codeSource: echo 1
+  techStack: GRADLE-JDK17

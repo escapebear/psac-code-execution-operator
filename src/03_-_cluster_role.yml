@@ -1,0 +1,11 @@
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: code-execution
+rules:
+- apiGroups:
+  - operators.psac.inf.elte.hu
+  resources:
+  - codeexecutions
+  verbs:
+  - '*'
