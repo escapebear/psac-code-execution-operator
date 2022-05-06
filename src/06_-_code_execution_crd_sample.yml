@@ -1,7 +1,8 @@
 apiVersion: operators.psac.inf.elte.hu/v1
 kind: CodeExecution
 metadata:
-  name: code-executor-gradle-jdk17
+  name: code-execution-gradle-jdk17
+  namespace: code-execution
 spec:
   user: myself
   codeSource: echo 1
